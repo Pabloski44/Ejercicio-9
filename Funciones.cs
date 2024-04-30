@@ -12,7 +12,7 @@ namespace Calculadora
         {
             int total;
             total = a + b;
-            return 'El resultado de la suma es :' + total;
+            return total;
         } 
     }
 }
