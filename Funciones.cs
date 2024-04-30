@@ -8,11 +8,11 @@ namespace Calculadora
 {
     public class Funciones
     {
-        public void Sumar(int a, int b) 
+        public int Sumar(int a, int b) 
         {
             int total;
             total = a + b;
-            Console.WriteLane("La suma da como resultado " + total);
+            return 'El resultado de la suma es :' + total;
         } 
     }
 }
