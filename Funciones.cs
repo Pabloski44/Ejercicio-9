@@ -15,5 +15,11 @@ namespace Calculadora
             calculo =  a - b;
             return calculo;
         }
+        public int division(int a, int b)
+        {
+            int calculo;
+            calculo = a / b;
+            return calculo;
+        }
     }
 }
