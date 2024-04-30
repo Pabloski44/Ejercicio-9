@@ -13,6 +13,12 @@ namespace Calculadora
             int total;
             total = a + b;
             return total;
-        } 
+        }
+        public int Multiplicar(int a, int b)
+        {
+            int total;
+            total = a * b;
+            return total;
+        }
     }
 }
