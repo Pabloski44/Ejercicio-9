@@ -8,7 +8,7 @@ namespace Calculadora
 {
     public class Funciones
     {
-        public Sumar(int a, int b) 
+        public void Sumar(int a, int b) 
         {
             int total;
             total = a + b;
